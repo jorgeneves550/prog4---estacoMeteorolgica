@@ -1,5 +1,6 @@
 {
     "name": "Prog.4 - EstaçãoMeteorológica",
+    "version": "1.0.0",
     "description": "",
     "dependencies": {
         "core": "*",
