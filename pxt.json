@@ -9,7 +9,8 @@
         "pxt-DHT11_DHT22": "github:alankrantas/pxt-dht11_dht22#v0.0.3",
         "i2cLCD1602": "github:makecode-extensions/i2clcd1602#v1.5.0",
         "MakerBit-LCD1602": "github:1010technologies/pxt-makerbit-lcd1602#v1.8.11",
-        "datalogger": "*"
+        "datalogger": "*",
+        "Environment-and-Science-IoT": "github:tinkertanker/pxt-iot-environment-kit#v5.6.4"
     },
     "files": [
         "main.blocks",

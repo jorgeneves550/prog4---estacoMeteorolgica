@@ -24,7 +24,7 @@ let minUV = 1000
 let minLuz = 1000
 basic.forever(function () {
     I2C_LCD1602.clear()
-    temp = pins.analogReadPin(AnalogPin.P0) * 3300 / 1023 / 10
+    temp = pins.analogReadPin(AnalogPin.P0) * 660 / 1023 / 10
     if (temp > maxTemp) {
         maxTemp = temp
     }
@@ -77,6 +77,7 @@ basic.forever(function () {
         datalogger.createCV("indice_uv", indiceUV),
         datalogger.createCV("luminosidade", luz)
         )
+        music.play(music.tonePlayable(131, music.beat(BeatFraction.Sixteenth)), music.PlaybackMode.UntilDone)
         registar = 0
     }
 })
